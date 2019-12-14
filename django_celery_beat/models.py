@@ -362,7 +362,7 @@ class PeriodicTask(models.Model):
     """Model representing a periodic task."""
 
     name = models.CharField(
-        max_length=200, unique=True,
+        max_length=180, unique=True,
         verbose_name=_('Name'),
         help_text=_('Short Description For This Task'),
     )
