@@ -118,7 +118,7 @@ class Migration(migrations.Migration):
         migrations.AlterField(
             model_name='periodictask',
             name='name',
-            field=models.CharField(help_text='Short Description For This Task', max_length=200, unique=True, verbose_name='Name'),
+            field=models.CharField(help_text='Short Description For This Task', max_length=180, unique=True, verbose_name='Name'),
         ),
         migrations.AlterField(
             model_name='periodictask',
